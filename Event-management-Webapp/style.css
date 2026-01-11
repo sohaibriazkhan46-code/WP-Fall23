@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f4f8;
+}
+
+/* Header */
+header {
+    background: #1e293b;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Search */
+.search-box {
+    text-align: center;
+    margin: 15px;
+}
+
+.search-box input {
+    padding: 10px;
+    width: 300px;
+}
+
+/* Event List */
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.event-card {
+    background: white;
+    width: 250px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.event-card.past {
+    background: #d1d5db;
+}
+
+.event-card button {
+    background: crimson;
+    color: white;
+    border: none;
+    padding: 6px;
+    cursor: pointer;
+}
+
+/* Form */
+.form-box {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.form-box input,
+.form-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.form-box button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.warning {
+    color: red;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

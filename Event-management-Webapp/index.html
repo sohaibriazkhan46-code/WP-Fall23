@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Horizon</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Event Horizon</h1>
+    </header>
+
+    <div class="search-box">
+        <input type="text" id="searchInput" placeholder="Search event by name or date">
+    </div>
+
+    <div id="eventList" class="event-list"></div>
+
+    <div class="form-box">
+        <h2>Add New Event</h2>
+
+        <p id="warning" class="warning"></p>
+
+        <input type="text" id="eventName" placeholder="Event Name">
+        <input type="date" id="eventDate">
+        <textarea id="eventDescription" placeholder="Event Description"></textarea>
+
+        <button onclick="addEvent()">Add Event</button>
+    </div>
+
+    <footer>
+        <p>Sohaib Riaz © 2026</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
